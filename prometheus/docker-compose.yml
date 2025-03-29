@@ -1,6 +1,6 @@
 services:
   prometheus:
-    image: quay.io/prometheus/prometheus:v2.25.0
+    image: quay.io/prometheus/prometheus:v2.45.0
     restart: always
     volumes:
       - "prom_data:/prometheus"
